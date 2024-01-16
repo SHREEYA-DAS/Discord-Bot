@@ -8,7 +8,7 @@ module.exports = {
                 .addField('1) *Serene!help bot*', 'Shows all of my commands!')
                 .addField('2) *Serene!help games*', 'Show what games we play!')
                 .setColor(colour)
-                .setFooter('Help page - 1/1 || Do Larry!help <category> to see the requested page')
+                .setFooter('Help page - 1/1 || Do Serene!help <category> to see the requested page')
             message.channel.send(embed);
         }
 
